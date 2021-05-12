@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+*{
+    margine: 0;
+    padding: 0;
+    outline: blue;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+.wrapper{
+    position:absolute;
+    top: 30%;
+    left: 20%;
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .input{
+    width: 85%;
+    padding: 15px 20px;
+    border: blue;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.search_button{
+    background-color: skyblue;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
